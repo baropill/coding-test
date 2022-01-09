@@ -52,6 +52,8 @@ You will be given 7 days to work on this task. You can submit early or ask for e
 - A person who can ask without hesitation when they have questions.
 - A person who is willing to try something they haven't done before. (related to developing, of course)
 
+P.S - 많은 경험과 노련함도 좋지만, 저희와 함께 발전하실 분이었으면 좋겠습니다. 저도 연구 개발에서 앱/웹 개발로 넘어온지 오래되지 않아 배워야 할 점이 많습니다. 같이 배우고 같이 공부하고 회사의 시스템을 위해 함께 나아갈 분을 찾습니다.
+
 ### Contact
 If you have any questions on this assignment please contact me via headhunter or information provided underneath.
 Any questions on your results or your future salary cannot be answered by me.
