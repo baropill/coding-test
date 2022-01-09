@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko-kr" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+
+<!-- HEAD -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,maximum-scale=1">
+  <title>메드고 (바로필) 개발 능력 검증</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/util.js"></script>
+</head>
+
+<!-- BODY -->
+<body>
+
+  <div>
+    <h1>PART 1: GET</h1>
+    <div id="GET">
+      <table>
+        <tr><th>NAME</th><td id="name"></td></tr>
+        <tr><th>GITHUB</th><td><a id="git" target="blank_"></a></td></tr>
+        <tr><td colspan="2" style="font-size: 0; text-align: center;">
+          <img id="uri" src="">
+        </td></tr>
+        <tr><td colspan="2">
+          <button onclick="getData()">GET</button>
+          <span class="timestamp"> Recent request: </span>
+          <span class="timestamp" id="ts_get">Never</span></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h1>PART 2: POST</h1>
+    <form id="POST"> <!-- <form id="POST" action="POST" onsubmit="postData()"> -->
+      <table>
+        <tr><th>NAME</th><td><input name="name" type="text" placeholder="Name" required></td></tr>
+        <tr><th>GITHUB</th><td><input name="git" type="url" placeholder="Github Link" required></td></tr>
+        <tr><td colspan="2" style="text-align: center;">
+          <label for="im_upload" style="cursor: pointer;"><img id="im_preview" src=""><br></label>
+          <input id="im_upload" type="file" name="uri" accept="image/jpeg, image/png" onchange="showImg('im_preview', this.files[0])" required>
+        </td></tr>
+        <tr><td colspan="2">
+          <input type="submit" value="POST" onclick="postData(); return false;"> <!-- <input type="submit" value="POST"> -->
+          <span class="timestamp"> Recent request: </span>
+          <span class="timestamp" id="ts_post">Never</span>
+        </td></tr>
+      </table>
+    </form>
+  </div>
+  
+</body>
+</html>
