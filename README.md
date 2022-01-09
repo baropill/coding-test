@@ -24,7 +24,7 @@ This repository was made as an assignment to test applicant's basic ability on c
     - 웹에서 정보가 업데이트되면 앱으로 Alert를 줍니다.
 
 ### 3. How-To
-You will be given 7 days to work on this task. You can submit early or ask for extension (reason required).
+You will be given 7 days to work on this task. You can submit early or ask for extension (reason required). We believe completing this task won't take that long, however, we are being considerate of your schedule.
 1. Clone this repository.
 1. For web, `npm install`. For app, `expo install`.
     - If you have any question about Expo, do not hesitate to contact me.
