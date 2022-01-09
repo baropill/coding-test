@@ -39,6 +39,7 @@ You will be given 7 days to work on this task. You can submit early or ask for e
 1. What you will be assessed on
     - How clean and simple you code is.
     - How well you have modified and generated app-server.
+    - Your ability to construct clean DB.
 1. What you will not be assessed on
     - How fast you have submitted your code.
     - How nicely the app / web is shown.
